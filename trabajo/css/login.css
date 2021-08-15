@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.fondo{
+	top: -0px;
+	left: -0px;
+	right: -0px;
+	bottom: -0px;
+	background-image: url(../img/fondologin.png);
+	background-size: cover;
+}
+
+.titulo{
+	position: absolute;
+	top: calc(30% - 10px);
+	left: calc(30% - 70px);
+	z-index: 2;
+}
+
+.titulo div{
+	color: #fff;
+	font-size: 35px;
+}
+
+.titulo div span{
+	color: aqua;
+}
+
+form{
+	position: absolute;
+	top: calc(45% - 120px);
+	left: calc(45% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+
+}
+
+form h1 {
+	color: aqua;
+}
+
+form input{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	color: black;
+	font-size: 16px;
+	padding: 4px;
+	margin-top: 10px;
+}
+input::placeholder { 
+	color: black; 
+	font-size: 1.2em; 
+ }
+
+ input[type=submit]{
+	width: 260px;
+	height: 35px;
+	background: white;
+	border: 1px solid #fff;
+	cursor: pointer;
+	padding: 6px;
+	margin-top: 10px;
+}
+input[type=submit]:hover{
+background: aquamarine;
+}
+
+form input:hover{
+	background: aqua;
+}

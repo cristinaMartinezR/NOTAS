@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #00006B;
+  }
+  nav{
+    text-align: right;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    color:black;
+  }
+  
+  p{
+    color:white;
+    font-size: 1.2rem;
+  }
+  
+  nav a{
+    color:white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav label{
+    color:aqua;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 0px 40px 0 0;
+  }
+  nav a:hover{
+    
+    text-decoration: underline;
+  }
+  
+  img{
+    height:80px;
+    padding: 10px 900px 0 0;
+  }
+
+  .titulo{
+    width: 50%;
+    margin: 30px 40px 46px 300px;;
+    border: 2px solid white;
+  }
+  .titulo h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+
+  .contenedor p{
+    color:black;
+    font-size: 1.2rem;
+    padding: 0px 0px 10px px;
+  }
+
+  .contenedor{
+    width: 50%;
+    background: white;
+    border-radius: 24px;
+    border: 2px solid;
+    margin: 40px auto;
+    padding: 30px;
+    margin-bottom: 150px; 
+  }
+
+  .contenedor form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  form label{
+    width: 100%;
+    display:inline-table;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  form select {
+    text-align: center;
+    width: 70%;
+    padding: 10px 20px 10px 50px;
+    font-size: 1.3em;
+    color: darkslategrey;
+    margin-left: 90px;
+  }
+
+  form textarea  {
+    width: 70%;
+    height: 60px;
+    margin-left: 90px;
+    display:inline-table;
+    font-size: 1.3em;
+  }
+
+  form input{
+    width: 50%;
+    height: 35px;
+    background: darkgray;
+    margin: auto;
+    color: black;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 200px;
+  }
